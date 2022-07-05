@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat&family=Open+Sans&family=Patrick+Hand&family=Permanent+Marker&family=Roboto&family=Source+Sans+Pro&display=swap');
+:root{
+    font-family: 'Patrick Hand', cursive;
+    --primary-color: #f5e050;
+}
+body{
+   
+    margin: 0px;
+}
+.nav{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    color: white;
+
+}
+.nav .nav-brand{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+#txt-input{
+    padding: 1rem;
+    margin: 1rem 25rem;
+    width: 40%;
+    height: 10vh;
+    display: block;
+}
+#btn-translator{    
+    border: 2px solid var(--primary-color);
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: auto 640px;
+    padding: 1rem;
+    font-family: 'Patrick Hand', cursive;
+}
+.text{
+    font-size: larger;
+    text-align: center;
+}
+.output{
+    border: 1px solid black;
+    height: 10vh;
+    width: 40%;
+    padding: 1rem;
+    margin: 1rem 25rem;
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    color: white;
+}
+.footer-insider{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.para{
+    max-width: 600px;
+    margin: auto;
+    font-size: large;
+}
