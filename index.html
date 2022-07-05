@@ -6,10 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banana-translator</title>
 </head>
+<style>
+    textarea{
+        padding: 1rem;
+        margin: 1rem 0rem;
+        width: 80%;
+        height: 10vh;
+        display: block;
+    }
+    .h1{
+        text-align: left;
+    }
+    .output{
+        border: 1px solid black;
+        height: 10vh;
+        width: 80%;
+        padding: 1rem;
+        margin: 1rem 0rem;
+    }
+</style>
 <body>
-    <h1>Banana Translator</h1>
+    <h1 class="h1">Banana Translator</h1>
+    <textarea id="txt-input" placeholder="Enter text to translate"></textarea>
     <button id="btn-translator">Translate</button>
+    <div style="font-size: larger;">Output will come here👇</div>
+    <div class="output">
     <script src="app.js" type="text/javascript"></script>
+
+    </div>
     
 </body>
 </html>
