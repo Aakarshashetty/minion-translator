@@ -4,7 +4,6 @@
     --primary-color: #f5e050;
 }
 body{
-   
     margin: 0px;
 }
 .nav{
@@ -34,6 +33,7 @@ body{
     margin: auto 640px;
     padding: 1rem;
     font-family: 'Patrick Hand', cursive;
+    cursor: pointer;
 }
 .text{
     font-size: larger;
@@ -50,6 +50,8 @@ body{
     background-color: var(--primary-color);
     padding: 0.5rem;
     color: white;
+    margin: 55px 0px;
+    margin-bottom: 0px;
 }
 .footer-insider{
     text-align: center;
